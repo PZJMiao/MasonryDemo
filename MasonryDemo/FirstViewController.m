@@ -112,7 +112,7 @@
             //            make.left.mas_equalTo(10);
             //            make.right.mas_equalTo(-10);
             //上面的方法可以种，有好几种方法可供使用，我选了我认为最简便的方法
-            make.edges.mas_equalTo(UIEdgeInsetsMake(0, 10, 0, 10));
+            make.edges.mas_equalTo(UIEdgeInsetsMake(0, 0, 0, 0));
         }];
     }
     return _tableView;
@@ -120,12 +120,27 @@
 - (NSMutableArray *)dataArray
 {
     if (_dataArray == nil) {
-//        _dataArray = [[NSMutableArray alloc] initWithObjects:@"tableView高度自适应",@"tableView高度自适应222222Get the new view controller using [segue destinationViewController].",@"In a storyboard-based application, you will often want to do a little preparation before navigation",@"111111222333444555",@"adhuadjshca",@"Masonry是一个轻量级的布局框架，拥有自己的描述语法，采用更优雅的链式语法封装自动布局、简洁明了、 并具有高可读性、 而且同时支持 iOS 和 Max OS X",@"iOS控件布局之Masonry布局框架", nil];
+        _dataArray = [[NSMutableArray alloc] initWithObjects:@"tableView高度自适应",@"tableView高度自适应222222Get the new view controller using [segue destinationViewController].",@"In a storyboard-based application, you will often want to do a little preparation before navigation",@"111111222333444555",@"adhuadjshca",@"Masonry是一个轻量级的布局框架，拥有自己的描述语法，采用更优雅的链式语法封装自动布局、简洁明了、 并具有高可读性、 而且同时支持 iOS 和 Max OS X",@"iOS控件布局之Masonry布局框架", nil];
         
-         _dataArray = [[NSMutableArray alloc] initWithObjects:@"tableView高度自适应", nil];
+//         _dataArray = [[NSMutableArray alloc] initWithObjects:@"tableView高度自适应", nil];
     }
     return _dataArray;
 }
+
+////cell的分割线巨边距
+////利用系统属性设置（separatorInset, layoutMargins）
+//-(void)viewDidLayoutSubviews
+//{
+//    [super viewDidLayoutSubviews];
+//    //调整iOS7以上表格分割线边距
+//    if ([self.tableView respondsToSelector:@selector(setSeparatorInset:)]) {
+//        [self.tableView setSeparatorInset:UIEdgeInsetsZero];
+//    }
+//    //调整iOS8以上view边距（或者在cell中设置preservesSuperviewLayoutMargins,二者等效）
+//    if ([self.tableView respondsToSelector:@selector(setLayoutMargins:)]) {
+//        [self.tableView setLayoutMargins:UIEdgeInsetsZero];
+//    }
+//}
 
 
 /*

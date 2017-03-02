@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D16AED1E680FB300BC3C0A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D16AEC1E680FB300BC3C0A /* SecondViewController.m */; };
+		08D16AF01E6812D300BC3C0A /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D16AEF1E6812D300BC3C0A /* SecondCell.m */; };
 		08DC61A51E5FC7A7007DAE98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC61A41E5FC7A7007DAE98 /* main.m */; };
 		08DC61A81E5FC7A7007DAE98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC61A71E5FC7A7007DAE98 /* AppDelegate.m */; };
 		08DC61AB1E5FC7A7007DAE98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC61AA1E5FC7A7007DAE98 /* ViewController.m */; };
@@ -43,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D16AEB1E680FB300BC3C0A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		08D16AEC1E680FB300BC3C0A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		08D16AEE1E6812D300BC3C0A /* SecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCell.h; sourceTree = "<group>"; };
+		08D16AEF1E6812D300BC3C0A /* SecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCell.m; sourceTree = "<group>"; };
 		08DC61A01E5FC7A7007DAE98 /* MasonryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DC61A41E5FC7A7007DAE98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08DC61A61E5FC7A7007DAE98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,11 +139,15 @@
 				08DC61AA1E5FC7A7007DAE98 /* ViewController.m */,
 				08DC61D81E5FE1C0007DAE98 /* FirstViewController.h */,
 				08DC61D91E5FE1C0007DAE98 /* FirstViewController.m */,
+				08D16AEB1E680FB300BC3C0A /* SecondViewController.h */,
+				08D16AEC1E680FB300BC3C0A /* SecondViewController.m */,
 				08DC61DB1E5FE3F2007DAE98 /* OneCell.h */,
 				08DC61DC1E5FE3F2007DAE98 /* OneCell.m */,
 				08DC61DD1E5FE3F2007DAE98 /* OneCell.xib */,
 				08DC61E01E5FE410007DAE98 /* TwoCell.h */,
 				08DC61E11E5FE410007DAE98 /* TwoCell.m */,
+				08D16AEE1E6812D300BC3C0A /* SecondCell.h */,
+				08D16AEF1E6812D300BC3C0A /* SecondCell.m */,
 				08DC61E31E601162007DAE98 /* CommonLibs.h */,
 				08DC61E41E601162007DAE98 /* CommonLibs.m */,
 				08DC61AC1E5FC7A7007DAE98 /* Main.storyboard */,
@@ -386,9 +396,11 @@
 				08DC61AB1E5FC7A7007DAE98 /* ViewController.m in Sources */,
 				08DC61E51E601162007DAE98 /* CommonLibs.m in Sources */,
 				08DC61DE1E5FE3F2007DAE98 /* OneCell.m in Sources */,
+				08D16AED1E680FB300BC3C0A /* SecondViewController.m in Sources */,
 				08DC61A81E5FC7A7007DAE98 /* AppDelegate.m in Sources */,
 				08DC61A51E5FC7A7007DAE98 /* main.m in Sources */,
 				08DC61DA1E5FE1C0007DAE98 /* FirstViewController.m in Sources */,
+				08D16AF01E6812D300BC3C0A /* SecondCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

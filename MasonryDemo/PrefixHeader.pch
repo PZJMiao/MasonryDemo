@@ -21,5 +21,9 @@
 #define SCREEN_WIDTH            ([[UIScreen mainScreen] bounds].size.width)
 #define SCREEN_HEIGHT           ([[UIScreen mainScreen] bounds].size.height)
 
+#define  UIColorFromHex(s) [UIColor colorWithRed:(((s & 0xFF0000) >> 16))/255.0 green:(((s &0xFF00) >>8))/255.0 blue:((s &0xFF))/255.0 alpha:1.0]   
+
+#define BackGroundColor UIColorFromHex(0xf8f8f8)
+#define GaryColor999999 UIColorFromHex(0x999999)
 
 #endif /* PrefixHeader_pch */

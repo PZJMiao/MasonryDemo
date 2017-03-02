@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -86,7 +87,8 @@
             break;
             case 1:
         {
-        
+            SecondViewController *secondVC = [[SecondViewController alloc] init];
+            [self.navigationController pushViewController:secondVC animated:YES];
         }
             break;
         default:
