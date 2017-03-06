@@ -4,4 +4,6 @@ target 'MasonryDemo' do
 
 pod 'Masonry'
 
+pod 'MJExtension'
+
 end

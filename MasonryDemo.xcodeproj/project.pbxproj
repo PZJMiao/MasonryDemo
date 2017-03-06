@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080B6E4B1E6915DC00959C38 /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B6E4A1E6915DC00959C38 /* Status.m */; };
+		080B6E4E1E69166900959C38 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B6E4D1E69166900959C38 /* User.m */; };
+		080B6E511E691A5800959C38 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B6E501E691A5800959C38 /* Student.m */; };
+		080B6E541E691C4600959C38 /* Bag.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B6E531E691C4600959C38 /* Bag.m */; };
+		080B6E571E6954E000959C38 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B6E561E6954E000959C38 /* ThirdViewController.m */; };
+		080B6E601E69570F00959C38 /* GoodsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 080B6E5F1E69570F00959C38 /* GoodsModel.m */; };
+		083B6D0B1E69030200258E88 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B6D0A1E69030200258E88 /* UserModel.m */; };
+		083B6D0E1E690A0B00258E88 /* StatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B6D0D1E690A0B00258E88 /* StatusModel.m */; };
+		083B6D111E690E1500258E88 /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B6D101E690E1500258E88 /* AdModel.m */; };
+		083B6D141E690E3300258E88 /* StatusResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B6D131E690E3300258E88 /* StatusResultModel.m */; };
 		08D16AED1E680FB300BC3C0A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D16AEC1E680FB300BC3C0A /* SecondViewController.m */; };
 		08D16AF01E6812D300BC3C0A /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D16AEF1E6812D300BC3C0A /* SecondCell.m */; };
 		08DC61A51E5FC7A7007DAE98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08DC61A41E5FC7A7007DAE98 /* main.m */; };
@@ -45,6 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080B6E491E6915DC00959C38 /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		080B6E4A1E6915DC00959C38 /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		080B6E4C1E69166900959C38 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		080B6E4D1E69166900959C38 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		080B6E4F1E691A5800959C38 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		080B6E501E691A5800959C38 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		080B6E521E691C4600959C38 /* Bag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bag.h; sourceTree = "<group>"; };
+		080B6E531E691C4600959C38 /* Bag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bag.m; sourceTree = "<group>"; };
+		080B6E551E6954E000959C38 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../../ThirdViewController.h; sourceTree = "<group>"; };
+		080B6E561E6954E000959C38 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../../ThirdViewController.m; sourceTree = "<group>"; };
+		080B6E5E1E69570F00959C38 /* GoodsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsModel.h; sourceTree = "<group>"; };
+		080B6E5F1E69570F00959C38 /* GoodsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsModel.m; sourceTree = "<group>"; };
+		083B6D091E69030200258E88 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		083B6D0A1E69030200258E88 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		083B6D0C1E690A0B00258E88 /* StatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusModel.h; sourceTree = "<group>"; };
+		083B6D0D1E690A0B00258E88 /* StatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusModel.m; sourceTree = "<group>"; };
+		083B6D0F1E690E1500258E88 /* AdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdModel.h; sourceTree = "<group>"; };
+		083B6D101E690E1500258E88 /* AdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdModel.m; sourceTree = "<group>"; };
+		083B6D121E690E3300258E88 /* StatusResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusResultModel.h; sourceTree = "<group>"; };
+		083B6D131E690E3300258E88 /* StatusResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusResultModel.m; sourceTree = "<group>"; };
 		08D16AEB1E680FB300BC3C0A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		08D16AEC1E680FB300BC3C0A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		08D16AEE1E6812D300BC3C0A /* SecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCell.h; sourceTree = "<group>"; };
@@ -108,6 +138,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080B6E5A1E69566300959C38 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				080B6E5C1E6956BA00959C38 /* VC */,
+				080B6E5D1E6956BA00959C38 /* Views */,
+				080B6E5B1E6956BA00959C38 /* Models */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		080B6E5B1E6956BA00959C38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				080B6E5E1E69570F00959C38 /* GoodsModel.h */,
+				080B6E5F1E69570F00959C38 /* GoodsModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		080B6E5C1E6956BA00959C38 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				080B6E551E6954E000959C38 /* ThirdViewController.h */,
+				080B6E561E6954E000959C38 /* ThirdViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		080B6E5D1E6956BA00959C38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		083B6D081E6902DA00258E88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				083B6D091E69030200258E88 /* UserModel.h */,
+				083B6D0A1E69030200258E88 /* UserModel.m */,
+				083B6D0C1E690A0B00258E88 /* StatusModel.h */,
+				083B6D0D1E690A0B00258E88 /* StatusModel.m */,
+				083B6D0F1E690E1500258E88 /* AdModel.h */,
+				083B6D101E690E1500258E88 /* AdModel.m */,
+				080B6E491E6915DC00959C38 /* Status.h */,
+				080B6E4A1E6915DC00959C38 /* Status.m */,
+				080B6E4C1E69166900959C38 /* User.h */,
+				080B6E4D1E69166900959C38 /* User.m */,
+				083B6D121E690E3300258E88 /* StatusResultModel.h */,
+				083B6D131E690E3300258E88 /* StatusResultModel.m */,
+				080B6E4F1E691A5800959C38 /* Student.h */,
+				080B6E501E691A5800959C38 /* Student.m */,
+				080B6E521E691C4600959C38 /* Bag.h */,
+				080B6E531E691C4600959C38 /* Bag.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		08DC61971E5FC7A7007DAE98 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +221,8 @@
 		08DC61A21E5FC7A7007DAE98 /* MasonryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				080B6E5A1E69566300959C38 /* MVVM */,
+				083B6D081E6902DA00258E88 /* Models */,
 				08DC61A61E5FC7A7007DAE98 /* AppDelegate.h */,
 				08DC61A71E5FC7A7007DAE98 /* AppDelegate.m */,
 				08DC61A91E5FC7A7007DAE98 /* ViewController.h */,
@@ -397,10 +487,20 @@
 				08DC61E51E601162007DAE98 /* CommonLibs.m in Sources */,
 				08DC61DE1E5FE3F2007DAE98 /* OneCell.m in Sources */,
 				08D16AED1E680FB300BC3C0A /* SecondViewController.m in Sources */,
+				080B6E4E1E69166900959C38 /* User.m in Sources */,
+				080B6E601E69570F00959C38 /* GoodsModel.m in Sources */,
+				080B6E541E691C4600959C38 /* Bag.m in Sources */,
+				083B6D0E1E690A0B00258E88 /* StatusModel.m in Sources */,
+				083B6D111E690E1500258E88 /* AdModel.m in Sources */,
 				08DC61A81E5FC7A7007DAE98 /* AppDelegate.m in Sources */,
+				083B6D0B1E69030200258E88 /* UserModel.m in Sources */,
+				083B6D141E690E3300258E88 /* StatusResultModel.m in Sources */,
+				080B6E511E691A5800959C38 /* Student.m in Sources */,
 				08DC61A51E5FC7A7007DAE98 /* main.m in Sources */,
+				080B6E571E6954E000959C38 /* ThirdViewController.m in Sources */,
 				08DC61DA1E5FE1C0007DAE98 /* FirstViewController.m in Sources */,
 				08D16AF01E6812D300BC3C0A /* SecondCell.m in Sources */,
+				080B6E4B1E6915DC00959C38 /* Status.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
